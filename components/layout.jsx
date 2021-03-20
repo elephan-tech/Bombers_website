@@ -1,8 +1,9 @@
 import React from "react";
-import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Page from "../components/Page";
+import Footer from "../components/Footer";
 
-const Layout = (props) => {
+const layout = (props) => {
   return (
     <div>
       <Navbar></Navbar>
@@ -12,4 +13,4 @@ const Layout = (props) => {
   );
 };
 
-export default Layout;
+export default layout;
