@@ -1,6 +1,13 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Footer from "../components/Footer";
+import Main from "../components/Main";
+import Navbar from "../components/Navbar";
+
 export default function Home() {
-  return (<Link href= './players'><a>Players</a></Link>
-  )
+  return (
+    <>
+      <Navbar></Navbar>
+      <Main></Main>
+      <Footer></Footer>
+    </>
+  );
 }
