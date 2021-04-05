@@ -1,13 +1,16 @@
 import React from "react";
-import Layout from "./Layout";
+import pages from "../config/pages";
+import Meta from "./Meta";
+import Navbar from "./navbar";
 
-const Page = (props) => {
-  const { title, children } = props;
+const Page = ({ children, title, description = "" }) => {
   return (
-    <Layout>
-      <h1>{title}</h1>
+    <>
+      <Meta title={title} description={description} />
+      <Navbar pages={pages} title={title}></Navbar>
+
       {children}
-    </Layout>
+    </>
   );
 };
 
