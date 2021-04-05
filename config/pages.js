@@ -54,7 +54,7 @@ export default [
     url: "/knowledge-center",
   },
   {
-    name: "Family Resources",
+    name: "kkck",
     url: "/family-resources",
   },
   {
