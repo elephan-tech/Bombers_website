@@ -4,7 +4,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 
 export const Banner = styled(Toolbar)((props) => ({
   background: props.theme.palette[props.color].main,
-  color: "white",
+  color: "#e2e2e2",
   height: 30,
   padding: "0 30px",
   display: "flex",

@@ -13,15 +13,15 @@ const theme = createMuiTheme({
     fontSize: 16,
   },
   palette: {
-    type: "light",
+    type: "dark",
     primary: {
-      main: "#042f54",
+      main: "#212121",
     },
     secondary: {
-      main: "#fed02f",
+      main: "#e2e2e2",
     },
     accent: {
-      main: "#e8e8e8",
+      main: "#212121",
     },
     danger: { main: "#d50000" },
     success: { main: "#0b9900" },

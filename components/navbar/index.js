@@ -24,7 +24,7 @@ const Navbar = ({ pages }) => {
       )}
       <Banner variant="dense" color="primary">
         <Typography variant="overline">
-          {phoneNumber || "1233131231"}
+          {phoneNumber || "St. Louis Bombers Rugby"}
         </Typography>
 
         <div>

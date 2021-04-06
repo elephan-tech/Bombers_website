@@ -7,9 +7,9 @@ const Logo = (props) => {
     <div {...boxProps}>
       <Link url="/" component="div">
         <Image
-          src="/monument_logo.png"
-          alt="Monument Academy Logo"
-          width="auto"
+          src="/cropped-bombers_logo.png"
+          alt="Bombers Logo"
+          width="100px"
           height="100px"
         />
       </Link>

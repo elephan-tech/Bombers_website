@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <Page title="Home">
       <Section
-        backgroundImage="/bg_columns.png"
-        backgroundPosition="center"
+        backgroundImage="/Mcbride-wrfu-front-row.jpeg"
+        backgroundPosition="center top"
         backgroundSize="cover"
       >
         <div width={1 / 2}>

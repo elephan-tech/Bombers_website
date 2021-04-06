@@ -39,27 +39,23 @@ export default [
   },
   {
     name: "Schedule",
-    url: "/programs",
+    url: "/schedule",
   },
   {
     name: "Players",
-    url: "/enrollment",
+    url: "/players",
   },
   {
     name: "News",
-    url: "/careers",
+    url: "/news",
   },
   {
-    name: "Store",
-    url: "/knowledge-center",
-  },
-  {
-    name: "kkck",
-    url: "/family-resources",
+    name: "Contact",
+    url: "/contact",
   },
   {
     name: "Shop",
-    url: "/donate",
+    url: "/Shop",
     component: "button",
     color: "secondary",
   },

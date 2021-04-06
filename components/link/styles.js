@@ -15,6 +15,7 @@ const useStyles = makeStyles(
       margin: 8,
       padding: "8px 16px",
       minWidth: 100,
+      color: "#e2e2e2",
     },
     a: {
       minHeight: 60,
@@ -23,7 +24,7 @@ const useStyles = makeStyles(
         backgroundPosition: "bottom center",
         backgroundRepeat: "no-repeat",
         backgroundImage: (props) =>
-          props.component === "a" ? 'url("/brush2.png")' : "none",
+          props.component === "a" ? 'url("/line.png")' : "none",
         backgroundSize: "80% auto",
       },
     },
